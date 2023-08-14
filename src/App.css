@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+body {
+  margin: 0
+}
+img::selection {
+  background: transparent;
+}
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.image-full {
+  width: 100%;
+  height: 100%;
+}
+
+.cover-image {
+  object-fit: cover;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-full {
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  #container {
+    border-radius: 12px;
+  }
+}
